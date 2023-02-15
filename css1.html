@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css1</title>
+    <link rel="my1" href="C:\Users\joe\Desktop\html_workspace\html-css\my1.css">
+    <style>
+        h1{
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: #888;
+        }
+    </style>
+
+    <style>
+        h2{
+            padding: 20px;
+            background-color: #999;
+            color: #132;
+        }
+    </style>
+
+    <style>
+        *{
+            margin: 0;
+        }
+    </style>
+
+
+    <style>
+        p{
+            text-align: center;
+            font-style: italic;
+        }
+        .accent{
+            border: 1px solid #000; /*테두리*/
+            padding: 5px; /*테두리와 내용 사이의 여백*/
+        }
+        .bg{
+            background-color: #ddd; /*배경색*/
+        }
+    </style>
+    
+    <style>
+        h2, h3{
+            text-align: center;
+        }
+    </style>
+
+
+    <style>
+        p{
+            color: yellow;
+        }
+        h1{
+            color: brown !important;
+            /* <h1>태그로 적용되는 모든 것들은, 그 어떠한 경우에도 무조건 'brown 갈색'이 가장 우선시되어 적용된다! */
+        }
+
+        /* <p>태그의 'color 속성'이 이렇게 위의 노란색과 아래의 파란색 두 개가 있는 경우,
+            실험해보니 가장 마지막에 작성된 파란색 기준으로 전체 텍스트가 그 파란색에 적용된다! */
+        p{
+            color: blue;
+        }
+    </style>
+
+<!-------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- 글꼴 관련 스타일 -->
+    <style> 
+    body{
+        font-size: 20px;
+    }
+    h1{
+        font-family: 바탕;
+        font-size: 3em;
+    }
+
+    </style> 
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+</head>
+
+
+<!--인라인 스타일: html요소 내부에 style 속성을 사용하여, css스타일을 적용하는 방법. 이러한 인라인 스탕리은 해당 요소에만 스타일을 적용할 수 있음.-->
+<!-------------------------------------------------------------------------------------------------------------------------------->
+
+<body>
+    <div>
+    <h1 class="accent bg">레드향</h1>
+    <p style="color:blue;">껍질에 붉은 빛이 돌아<span class="accent">레드향</span>레드향이라고 불린다</p>
+    <p>레드향은 <span class="bg">한라봉</span>한라봉과 귤을 교배한 것으로...</p>
+    <p>비타민 C와 비타민 P가 풍부해..</p>
+    
+    <h2>천혜향</h2>
+
+    <h3>사과</h3>
+    </div>
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------->
+    <style>
+        #containerrr{
+            width: 500px;
+            margin: 10px auto;
+            padding: 10px;
+            border: 1px solid #000;
+        }
+        </style>
+
+<div id="containerrr">
+    <h1>오뤤지</h1>
+</div>
+
+<!-------------------------------------------------------------------------------------------------------------------------------->
+
+<h1 style="color: green">그린향</h1>
+<p style="color: red">껍질에 붉~~~은 빛이 돌아 레드향이라 불린다</p>
+<p>일반 귤보다 2~3배 크고, 과육이 붉고</p>
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+<!-- 
+    전체 선택자: *{margin:0;}
+    타입 선택자: p{font-style: italic;} 
+    클래스 선택자: .bg{background-color: #ddd;}
+    id 선택자: #container{width: 500px;}
+    그룹 선택자: h1, h2{text-align: center;}
+    
+-->
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------->
+
+</body>
+</html>

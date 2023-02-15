@@ -1,0 +1,49 @@
+h1{
+    padding: 10px;
+    background-color: #222;
+    color: #bbb;
+}
+
+body{
+    font-family: "맑은 고딕", 돋움, 굴림
+}
+
+.intro{
+    background-color: yellow;
+}
+
+.clear{
+    background-color: green;
+}
+
+.role, .second{
+    color: aquamarine;
+}
+
+
+#yujong{
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #555;
+    color: aqua;
+}
+
+.accent{
+    font-family: 바탕; /*글꼴*/
+    font-size: 130%; /*글자 크기*/
+    font-weight: 800; /*글자 굵기*/
+    color:coral;
+}
+
+
+
+/*<span>태그는 주로 <div>태그, <p>태그와 함께 웹페이지의 일부분에 스타일을 적용시키기 위해 사용됨. <span>태그 안에 아무런 컨텐츠가 엇ㅂ다면, 해당 부분은 아무런 변화가 없지만, 
+<span>태그 내부에 객체가 들어가면, 그 객체의 크기만큼 공간이 할당도미. 
+<span>태그로 요소를 감싸면, CSS나 JS로 그 부분을 변형시키는 것이 가능해진다.*/
+.box{
+    display: inline-block; /*default값 inline*/
+    width:100
+}
+
+

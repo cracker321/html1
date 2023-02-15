@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+
+<!-- 외부 스타일시트 적용방법. 'class.selector.css'파일의 'relative path'를 복붙한거임
+    그리고, rel 다음에 오는 문구는 무조건 고정("stylesheet")임. -->
+    <link rel="stylesheet" href="my1.css">
+
+
+    <!--내부 스타일시트 적용방법-->
+    <style>
+        h1{
+            color:#0000ff;
+        }
+        p{
+            color:green;
+        }
+        .melon{
+            color:hsl(40, 30%, 50%);
+            font-weight:bold;
+        }
+        .hello{
+            color: rgba(255, 125.5, 255, 0.5);
+        }
+
+    </style>
+
+</head>
+
+
+
+<body>
+    <h2>레드향</h2>
+    <p>껍질에 붉은 빛이 돌아 <strong>레드향</strong>이라 불린다<br>
+    레드향은 한라봉과 귤을 교배한 것으로<br>
+    일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.</p>
+
+    <div class="intro">
+        <p>my name is Donald.</p>
+    </div>
+    
+
+    <div class="intro">
+        <p>my name is Yujong</p>
+    </div>
+
+    <div class="clear">
+        <h2>hello</h2>
+    </div>
+
+    <div id="yujong">
+        <p>안녕하세요오오옹</p>
+    </div>
+
+
+    <h1>시간이란..</h1>
+    <div>내일 죽을 것처럼<p class="accent"> 오늘</p>을 살고</div>
+    <p>영원히 살 것처럼<br>내일을 꿈꾸어라</p>
+
+
+    <h1>시간이란..</h1>
+    <div>내일 죽을 것처럼<span class="accent"> 오늘</span>을 살고</div>
+    <p>영원히 살 것처럼<br>내일을 꿈꾸어라</p>
+
+
+</body>
+
+
+
+
+</html>
